@@ -1,0 +1,70 @@
+<div id="rezepteHinzufuegen">
+   <div id=formular>
+       <h2>Füge ein Rezept Deiner Wahl hinzu.</h2>
+       <h3>Hauptsache Vegan - ist doch klar!</h3>
+    <form [formGroup]="form" (ngsubmit)="postRezept()">
+    <table>
+        <tr>
+            <th>Name des Rezepts</th>
+            <td><input type="text" name="Name" formControlName="nameControl"/></td>
+        </tr>
+        <tr>
+            <th>Kategorie</th>
+            <td><select formControlName="KategorieControl">
+                <option>Tapas</option>
+                <option>Hauptgericht</option>
+                <option>Dessert</option>
+           </select></td>
+        </tr>
+        <tr>
+            <th>Anzahl der Portionen</th>
+            <td><input type="number" name="AnzahlPortionen" formControlName="AnzahlPortionenControl"/></td>
+        </tr>
+        <tr>
+            <th>Vorbereitungszeit in Minuten</th>
+            <td><input type="number" name="Vorbereitungszeit" formControlName="VorbereitungszeitControl"/></td>
+        </tr>
+        <tr>
+            <th>Gesamtzeit in Minuten</th>
+            <td><input type="number" name="Gesamtzeit" formControlName="GesamtzeitControl"/></td>
+        </tr>
+        <tr>
+            <th>Zutat</th>
+            <th>Menge</th>
+            <th>Mengeneinheit</th>
+        </tr>
+        <tbody id="table_body">
+        <tr id="input_tr">
+            <td><input class="Zutaten" type="text" name="Zutat"/></td>
+            <td><input class="Zutaten" type="number" name="Menge"/></td>
+            <td><select class="Zutaten" formControlName="MengeneinheitControl">
+                     <option>Milliliter</option>
+                     <option>Liter</option>
+                     <option>Gramm</option>
+                     <option>Kilogramm</option>
+                     <option>Teelöffel</option>
+                     <option>Esslöffel</option>
+                     <option>Stück</option>
+                     <option>Prise</option>
+                </select>
+            </td>
+            <td><i type="button" class="bi bi-plus-circle" (click)="AddRow()"></i></td>
+            <td><i type="button" class="bi bi-eraser"></i></td>
+        </tr>
+    </tbody>
+        <tr>
+            <th>Anleitung</th>
+            <td><textarea name="Anleitung" formControlName="AnleitungControl"></textarea></td>
+        </tr>
+        <tr>
+            <th>Bild hinzufügen</th>
+            <td><input type="file" to="string" accept="image/*" ></td>
+        </tr>
+        <tr>
+            <td><button type="button" (click)="cancel()" name="abbrechen" >Abbrechen</button></td>
+            <th><button type="button" (click)="postRezept()" name="speichern" >Speichern</button></th>
+        </tr>
+    </table>
+</form>
+</div>
+ </div>

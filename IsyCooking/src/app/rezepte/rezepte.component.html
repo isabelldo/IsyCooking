@@ -1,0 +1,39 @@
+<div id="Rezepte">
+  <br>
+  <br>
+  <br>
+  <div class="Wrapper">
+    <h3>Tapas</h3>
+    <hr>
+    <div class="grid">
+          <figure class="grid_figure" *ngFor="let Tapas of tapas">
+            <a [routerLink]="['/ansicht-rezepte', Tapas._id]"><img src="../../assets/Bruschetta.JPG" alt=""></a> 
+           <a [routerLink]="['/ansicht-rezepte', Tapas._id]"><h5>{{ Tapas.name }}</h5></a>
+          </figure>
+        </div>
+  </div>
+   <div class="Wrapper">
+      <h3>Hauptspeisen</h3>
+      <hr>
+      <div class="grid">
+          <figure class="grid__figure" *ngFor="let Hauptgericht of hauptgerichte">
+            <a [routerLink]="['/ansicht-rezepte', Hauptgericht._id]"><img src="../../assets/ButterCauliflower.jpg" alt=""></a> 
+            <a [routerLink]="['/ansicht-rezepte', Hauptgericht._id]"><h5>{{ Hauptgericht.name }}</h5></a>
+          </figure>
+        </div>
+  </div>
+  <div class="Wrapper">
+    <h3>Dessert</h3>
+    <hr>
+          <div class="grid">
+              <figure class="grid__figure" *ngFor="let Dessert of desserts">
+                <a [routerLink]="['/ansicht-rezepte', Dessert._id]"><img src="../../assets/KarottenCupcakes.JPG" alt=""></a> 
+                <a [routerLink]="['/ansicht-rezepte', Dessert._id]"><h5>{{ Dessert.name }}</h5></a>
+              </figure>
+            </div>  
+        </div>
+<br>
+<br>
+<br>  
+<br>
+</div>

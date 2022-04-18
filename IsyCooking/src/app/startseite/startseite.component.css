@@ -1,0 +1,26 @@
+#startseite{
+    background-image: url("../../assets/Titelbild.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#vegan, #II, #bWahl {
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 80px;
+    margin: 0px;
+    margin-top: 20px;
+    margin-left: 20px;
+    text-shadow: 1px 3px 4px black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#vegan {
+    font-size: 140px;
+}
+
+#wrapper {
+    padding-top: 40px;
+    padding-bottom: 310px;
+}

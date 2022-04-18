@@ -1,0 +1,70 @@
+@import url('../../../node_modules/bootstrap-icons/font/bootstrap-icons.css');
+
+h2, h3{
+    text-align: center;
+}
+
+h2{
+    padding-top: 42px;
+    margin-top: 0px;
+}
+
+table {
+    padding: 25px;
+    font-size: larger;
+}
+
+td {
+    padding: 20px;
+}
+
+th {
+    text-align: left;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+input {
+    width: 175px;
+    border-radius: 5px;
+    
+}
+
+textarea, select {
+    border-radius: 5px;
+}
+
+input, textarea, select, button {
+    box-shadow: 5px 5px 10px rgb(245, 245, 245);
+    border-color: white;
+}
+
+#formular {
+    background-color: rgba(205,102,29,0.7);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+    width: fit-content;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#rezepteHinzufuegen{
+    background-image: url("../../assets/Titelbild.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0;
+}
+
+#upload {
+    width:max-content;
+}
+
+button {
+    border-radius: 5%;
+    border-style: none;
+    padding: 5px;
+    float: right;
+}

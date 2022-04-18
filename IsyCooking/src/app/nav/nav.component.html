@@ -1,0 +1,20 @@
+<nav>
+<div id="logo"><img src="../../assets/Logo.png" alt="Titelbild" [routerLink]="['']"Startseite/></div>
+    
+         <ul>
+           <div id="dropdown">
+         <button>Menü</button>
+            <div id="dropdown-content">
+         <li>
+           <a [routerLink]="['']">Startseite</a>
+         </li>
+         <li>
+           <a [routerLink]="['/rezepte']">Rezepte</a>
+         </li>
+         <li>
+            <a [routerLink]="['/rezepteHinzufügen']">Rezepte hinzufügen</a>
+          </li>
+        </div>
+        </div>
+       </ul>
+ </nav>

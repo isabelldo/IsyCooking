@@ -1,0 +1,100 @@
+a:hover {
+  color: #CD661D;
+}
+
+ul{
+  margin: 0px;
+}
+
+nav {
+  background-color: whitesmoke;
+  position: sticky;
+  top:0;
+  z-index: 4;
+  height: 100px;
+}
+
+#logo {
+  width:fit-content;
+  float: left;
+  border-style: double;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+@media screen and (min-width: 901px) 
+{
+ button {
+     display: none;
+ }
+
+ #dropdown-content {
+   display: flex;
+   justify-content: space-around;
+   height: 100px;
+   margin-top: 0;
+   margin-bottom: 0;
+    margin-left: 10px;
+ }
+
+li {
+    padding-top: 40px;
+    list-style: none;
+}
+
+a {
+    color: black;
+    font-family: verdana;
+    text-decoration: none;
+    font-size: 20px;
+}
+}
+
+@media screen and (max-width: 900px) 
+{
+    button {
+      background-color: #CD661D;
+      color: whitesmoke;
+      padding: 12px;
+      font-size: 16px;
+      border: none;
+      cursor: pointer;
+      display: inline-block;
+      border-style: double;
+      margin-top: 20%;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    #dropdown{
+      position: relative;
+      display: inline-block;
+      margin-left: 10%;
+      margin-top: 15px;
+    }
+
+    #dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: whitesmoke;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+      list-style: none;
+    }
+    a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    a:hover {
+        background-color: #F1F1F1;
+      }
+
+    #dropdown:hover #dropdown-content {
+          display: block;
+          position: absolute;
+        }
+}
+

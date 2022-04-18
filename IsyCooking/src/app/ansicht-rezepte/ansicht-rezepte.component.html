@@ -1,0 +1,71 @@
+<div id="ansichtRezepte">
+    <br>
+  
+    <br>
+  
+    <br>
+  
+    <br>
+  
+    <div id="Wrapper">
+        <button class="bi bi-trash" id="deleteButton" (click)="delete(this.rezept._id)"></button>
+        <br>
+        <br>
+        <h1>{{ rezept.name }}</h1>
+        <div id="Rezeptbild">
+        <img src="../../assets/Titelbild.jpg" alt="Vorschaubild Rezept">
+        </div>
+        <table id="ohneZutaten">
+            <tr>
+                <th>Kategorie:</th>
+                <td>{{rezept.Kategorie}}</td>
+            </tr>
+            <tr>
+                <th>Anzahl der Portionen:</th>
+                <td>{{rezept.Anzahl_Portionen}}</td>
+            </tr>
+            <tr>
+                <th>Vorbereitungszeit in Minuten:</th>
+                <td>{{rezept.Vorbereitungszeit}}</td>
+            </tr>
+            <tr>
+                <th>Gesamtzeit in Minuten:</th>
+                <td>{{rezept.Gesamtzeit}}</td>
+            </tr>
+            </table>
+            <table>
+            <tr>
+                <th id="Anleitung_Überschrift">Anleitung:</th>
+            </tr>
+            <tr>
+                <td id="Anleitung">{{rezept.Anleitung}}</td>
+            </tr>
+            </table>
+            <table id="mitZutaten">
+                <h5>Was du alles dafür brauchst:</h5>
+            <tr>
+                <th>Zutat</th>
+                <th>Menge</th>
+                <th>Mengeneinheit</th>
+            </tr>
+            <tr>
+            <div>
+            <div id="zutaten" *ngFor="let zutat of alleZutaten">
+                <td>{{zutat.Zutat}}</td>
+            </div>
+            <div id="mengenangaben" *ngFor="let Mengenangaben of alleMengenangaben">
+                <td>{{Mengenangaben.Menge}}</td>
+                <td>{{Mengenangaben.Mengeneinheit}}</td>
+            </div>
+            </div>
+        </tr>
+        </table>
+    </div>
+    <br>
+  
+    <br>
+  
+    <br>
+  
+    <br>
+</div>

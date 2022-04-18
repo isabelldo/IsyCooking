@@ -1,0 +1,11 @@
+footer {
+    background-color: whitesmoke;
+    height: 50px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    width: 100%;
+    bottom: 0;
+    z-index: 4;
+    padding: 5px;
+}

@@ -1,0 +1,95 @@
+@import url('../../../node_modules/bootstrap-icons/font/bootstrap-icons.css');
+
+#ansichtRezepte {
+    background-image: url("../../assets/Titelbild.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0;
+}
+
+h1{
+    padding-top: 10px;
+    text-align: center;
+}
+
+h5 {
+    padding: 20px;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0;
+    font-size: larger;
+}
+
+td {
+    padding: 20px;
+    padding-right: 30px;
+    text-align: center;
+}
+
+th {
+    text-align: left;
+    padding-left: 20px;
+}
+
+textarea {
+    border-radius: 5px;
+}
+
+select {
+    border-radius: 5px;
+}
+
+#Anleitung{
+  width: 800px; 
+}
+
+#Anleitung_Überschrift{
+padding-top: 10px;
+padding-left: 20px;
+}
+
+#Wrapper {
+    background-color: #CD661D;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+    border-radius: 5%;
+    width: fit-content;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#deleteButton {
+    margin-right: 0;
+    margin-top: 0;
+    padding: 15px;
+    border-radius: 0 50% 0 0;
+}
+   
+button {
+       border-radius: 5%;
+       border-style: none;
+       padding: 5px;
+       float: right;
+   }
+
+img{
+    margin-left: 20px;
+    width: 400px;
+}
+
+#Rezeptbild {
+    display: flex;
+    justify-content: center;
+}
+
+#zutaten{
+   
+}
+
+#mengenangaben{
+    
+}

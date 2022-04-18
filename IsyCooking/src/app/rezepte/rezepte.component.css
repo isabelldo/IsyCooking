@@ -1,0 +1,75 @@
+hr{
+    width: 80%;
+    border-style: double;
+    height: 2px;
+    border-color: whitesmoke;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    height: 250px;
+}
+
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:whitesmoke;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 25px;
+}
+
+h5 {
+    padding-top: 5px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:whitesmoke;
+   
+}
+
+#Rezepte {
+    background-image: url("../../assets/Titelbild.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.grid_figure {
+    display: grid;
+    height: 300px;
+    border-radius: 5%;
+    color: whitesmoke;
+}
+
+ul { 
+    list-style: none;
+}
+
+figure { 
+    margin-top: 7px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    overflow-x:scroll;
+    overflow-y: hidden;
+    grid-gap: 120px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0;
+}
+
+.Wrapper {
+    background-color: rgba(205,102,29,0.7);
+    width: 70%;
+    height: 410px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
