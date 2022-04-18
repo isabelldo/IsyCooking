@@ -35,7 +35,7 @@ indem auf der Rezepte-Seite auf ein Rezept geklickt wird (endweder Name oder Bil
 (Ansicht-Rezept) weitergeleitet.
 
 ### Startseite 
-![Startseite](../IsyCooking/src/assets/ReadMeImages/Startseite)
+![Startseite](../IsyCooking/src/assets/ReadMeImages/Startseite.PNG)
 
 ### Rezepte 
 ![Rezepteübersicht](../IsyCooking/src/assets/ReadMeImages/RezepteÜbersicht)
