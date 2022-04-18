@@ -35,25 +35,25 @@ indem auf der Rezepte-Seite auf ein Rezept geklickt wird (endweder Name oder Bil
 (Ansicht-Rezept) weitergeleitet.
 
 ### Startseite 
-![Startseite](IsyCooking/src/assets/ReadMeImages/Startseite)
+![Startseite](../IsyCooking/src/assets/ReadMeImages/Startseite)
 
 ### Rezepte 
-![Rezepteübersicht](IsyCooking/src/assets/ReadMeImages/RezepteÜbersicht)
+![Rezepteübersicht](../IsyCooking/src/assets/ReadMeImages/RezepteÜbersicht)
 Auf der Seite "Rezepte" können alle vorhandenen Rezepte mit Vorschaubild und Name eingesehen werden.
 Die Rezepte werden dort automatisch den verschiedenen Kategorien (Tapas, Hauptspeisen, Desserts) hinzugefügt 
 und befinden sich jeweils in einer Slide-Gallery. 
 ![RezepteSlideelemente](./src/assets/ReadMeImages/SlideBoxenÜbersicht)
 
 ### Anzeige-Rezept
-![RezepteEinzelansicht](IsyCooking/src/assets/ReadMeImages/RezepteEinzelansicht)
+![RezepteEinzelansicht](../IsyCooking/src/assets/ReadMeImages/RezepteEinzelansicht)
 Die seite "Anzeige-Rezept" kann nur durch die Seite "Rezepte" erreicht werden, um ein gesamtes Rezept
 einzuschauen. Dort sind alle Details zum Rezept aufgelistet. Mithilfe des Mülleinmer-Icons kann das geöffnete
 Rezept gelöscht werden.
-![RezepteEinzelübersicht](IsyCooking/src/assets/ReadMeImages/AnleitungUndZutaten)
+![RezepteEinzelübersicht](../IsyCooking/src/assets/ReadMeImages/AnleitungUndZutaten)
 
 ### Rezepte-Hinzufügen 
-![RezeptHinzufügen](IsyCooking/src/assets/ReadMeImages/RezeptHinzufügen)
-![RezeptHinzufügen](IsyCooking/src/assets/ReadMeImages/RezeptHinzufügen2)
+![RezeptHinzufügen](../IsyCooking/src/assets/ReadMeImages/RezeptHinzufügen)
+![RezeptHinzufügen](../IsyCooking/src/assets/ReadMeImages/RezeptHinzufügen2)
 Auf der letzten Seite können Rezepte hinzugefügt werden. 
 ***
 
