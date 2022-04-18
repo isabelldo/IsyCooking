@@ -42,7 +42,7 @@ indem auf der Rezepte-Seite auf ein Rezept geklickt wird (endweder Name oder Bil
 Auf der Seite "Rezepte" können alle vorhandenen Rezepte mit Vorschaubild und Name eingesehen werden.
 Die Rezepte werden dort automatisch den verschiedenen Kategorien (Tapas, Hauptspeisen, Desserts) hinzugefügt 
 und befinden sich jeweils in einer Slide-Gallery. 
-![RezepteSlideelemente](./src/assets/ReadMeImages/SlideBoxenÜbersicht)
+![RezepteSlideelemente](../IsyCooking/src/assets/ReadMeImages/SlideBoxenÜbersicht)
 
 ### Anzeige-Rezept
 ![RezepteEinzelansicht](../IsyCooking/src/assets/ReadMeImages/RezepteEinzelansicht)
